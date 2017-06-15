@@ -1,0 +1,39 @@
+body {
+    font-family: Noto Sans, sans-serif;
+}
+
+table {
+    background-color: rgba(255, 127, 0, 1);
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.time {
+    font-family: Georgia, serif;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+th {
+    font-variant-caps: small-caps;
+    background-color: black;
+    color: white;
+}
+
+td, th {
+    vertical-align: top;
+}
+
+td div {
+    height: 80px;
+    background-image: url(../var/vip.png);
+    background-size: cover;
+    color: green;
+}
+
+td p {
+    margin: 0;
+}
+
+td div p {
+    background-color: rgba(255, 127, 0, 0.5);
+}
